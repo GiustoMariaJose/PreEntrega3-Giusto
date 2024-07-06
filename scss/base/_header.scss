@@ -1,0 +1,34 @@
+.logo {
+    width: 5rem;
+    
+}
+
+
+.menu {
+    display: flex; /*Poniendo los items uno al lado del otros*/    
+    list-style-type: none; /*Sacando las viñetas a la lista*/  
+    gap: 1rem;  
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+.backgroundMenu {
+    background-color: #666666;
+    .menu_item {
+        color: #02305c;
+        text-decoration: solid;
+        font-family: "Montserrat", sans-serif;
+    }
+    .menu_item a:hover {
+        color: #f60101;
+        text-decoration: underline double;  
+    }
+    .menu_item.active {
+        color: #f60101;  
+    }
+    .active {
+        text-decoration: solid;
+    }   
+}

@@ -1,0 +1,35 @@
+.hero {
+    height: 100vh;
+    background-image: url(../img/atardecer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    .contenedorFoto {
+        padding: 80px 100px 250px 100px;
+        background-image: url(../img/atardecer.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        .contenedorParrafo {
+            width: 100%;
+            margin-block: 1px;
+
+            .presentacionParrafo {
+                margin-top: 30px;
+                text-align: center;
+                background-color: #ffffff2c;
+                border-radius: .5rem;                
+            }
+            
+        }
+    }
+}

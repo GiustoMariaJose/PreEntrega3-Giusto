@@ -1,0 +1,46 @@
+.servicios {
+    height: 100vh;
+    background-image: url(../img/paginaServicios1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    .tarjetas {
+        padding: 4rem;
+        display:flex;
+        flex-direction:column;
+        flex-wrap: nowrap;
+        justify-content:space-between;
+        align-items:start;
+        gap: 3rem;
+
+        .tarjeta {
+            flex:1;
+            width: 50%;
+            background-color: #a9acb3b3;
+            border-radius: .5rem;
+            padding: .5rem;   
+
+            .tarjetaInfo {
+                padding: 1rem;
+                align-items: start;
+
+                .tarjetaLink {
+                    background-color: #3d465548;
+                    color: #02305c;
+                    text-decoration: none;
+                    font-weight: bold;
+                    padding: .25rem .5rem;
+                    align-items: start;   
+                
+                }
+            }
+        }
+    
+    }
+
+}
+
+
+
+

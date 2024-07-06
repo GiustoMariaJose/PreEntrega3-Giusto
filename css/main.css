@@ -14,20 +14,6 @@
     width: 5rem;
     
 }
-/*.header {
-    background-color: #666666;
-
-    padding-block: 10px;
-    display: flex;
-    align-items:center;
-    justify-content:space-between;
-    
-    z-index: 1;
-    position: sticky;
-    top: 0;
-
-    padding: .5rem;
-}*/
 
 
 .menu {
@@ -39,20 +25,6 @@
 .negrita {
     font-weight: bold;
 }
-
-
-
-
-/*.menu_item a {
-    color: #02305c;
-    text-decoration: none;
-}*/
-
-
-/*.menu_item.active a {
-    text-decoration: underline double; 
-}*/
-
 
 
 
@@ -193,101 +165,8 @@
 .simple-linear {
     background: linear-gradient(#02315ced, #bebfc4d2);
 }
-/*.galeria {
-    height: 100vh;
-    
-    background-image: url(../img/rutaAsfaltada2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
 
-.tarjetasMovimiento {
-    padding: 4rem;
-    display: flex;
-    gap: 3rem;
-}
 
-.tarjetaMovimiento {
-    flex: 1;  
-}
-
-.tarjetaMovimientoImg {
-    width: 100%;
-}*/
-/***************Paige: Galería con grids!*******/
-
-/*.galeria {
-    height: 100vh;
-}
-.contenedorGaleria {
-    width: 100%;
-    height: 100vh;
-    display: grid;
-    grid-template-columns: repeat (3, 1fr);
-    grid-template-rows: repeat (6, 1fr);
-    grid-template-areas: 
-        "titulo1 titulo1 titulo1"
-        "foto1   foto2   foto3  "
-        "titulo2 titulo2 titulo2"
-        "foto4   foto5   foto6  "
-        "titulo3 titulo3 titulo3"
-        "foto7   foto8   foto9  ";
-        gap: 5px;
-        padding: 5px;
-    }
-
-.titulo1 {
-    grid-area: titulo1;
-}
-.foto1 {
-    grid-area: foto1;
-}
-.foto2 {
-    grid-area: foto2;
-}
-.foto3 {
-    grid-area: foto3;
-}
-.titulo2 {
-    grid-area: titulo2;
-}
-.foto4 {
-    grid-area: foto4;
-}
-.foto5 {
-    grid-area: foto5;
-}
-.foto6 {
-    grid-area: foto6;
-}
-.titulo3 {
-    grid-area: titulo3;
-}
-.foto7 {
-    grid-area: foto7;
-}
-.foto8 {
-    grid-area: foto8;
-}
-.foto9 {
-    grid-area: foto9;
-}
-
-.foto1, .foto2, .foto3, .foto4, .foto5, .foto6, .foto7, .foto8, .foto9 {
-    
-    display: flex;
-    flex: 1;
-    max-width: 100%;
-    justify-content: center;
-    align-content: center;
-    
-}
-.tarjetaMovimientoImg {
-    max-width: 100%;
-    width: auto;
-
-}*/
 
 
 
@@ -301,32 +180,7 @@
     background-size: cover;
     background-position: center;
 }
-/*.background {
-    background-color: #a9acb3b3;
-    width: 50%;  
-    border-radius: .5rem;
-    padding: .5rem;
-    gap: 3rem; 
-}
-/*.datos {
-    padding: 4rem;
-    display:flex;
-    flex-direction:column;
-    flex-wrap: wrap;
-    justify-content:space-between;
-    align-items:start;
-    gap: 2rem;
-}*/
 
-/*.datosArticle {
-    flex:1;
-    flex-wrap: nowrap;
-    width: 50%;
-    background-color: #a9acb3b3;
-    border-radius: .5rem;
-    padding: .5rem;
-    gap: 3rem;     
-}*/
 .telefonoImg, .direImg, .mailImg {
     width: 1.5rem;
 }

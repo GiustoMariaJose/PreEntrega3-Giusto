@@ -1,6 +1,8 @@
 .servicios {
-    height: 100vh;
+    
     background-image: url(../img/paginaServicios1.jpg);
+    height: 100vh;
+
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -21,6 +23,13 @@
             background-color: $colorFondoFuerte;
             border-radius: .5rem;
             padding: .5rem;   
+
+            @include tablet {
+                width: 60%;
+            }
+            @include mobile {
+                width: 100%;
+            }
 
             .tarjetaInfo {
                 padding: 1rem;

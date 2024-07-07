@@ -1,7 +1,4 @@
-.logo {
-    width: 5rem;
-    
-}
+
 
 
 .menu {
@@ -16,6 +13,14 @@
 
 .backgroundMenu {
     background-color: #666666;
+    .logo {
+        width: 5rem;
+        transition: width 1s ease;
+    }
+    .logo:hover {
+        width: 6.5rem;
+    }
+        
     .menu_item {
         color: #02305c;
         text-decoration: solid;
